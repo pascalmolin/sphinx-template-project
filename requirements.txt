@@ -1,0 +1,11 @@
+sphinx>=4.2.0
+pygments>=2.10.0
+sphinx-gitstamp>=0.3.0
+sphinxcontrib-bibtex>=1.1.0a0
+sphinxcontrib-katex>=0.8.6
+git+https://github.com/pascalmolin/sphinx-math-dollar@master#egg=sphinx-math-dollar
+git+https://github.com/pascalmolin/sphinx-gp@master#egg=sphinx-gp
+git+https://github.com/pascalmolin/sphinx-mathenv@master#egg=sphinx-mathenv
+git+https://github.com/pascalmolin/sphinx-rstprog@master#egg=sphinx-rstprog
+git+https://github.com/pascalmolin/sphinx-sol@master#egg=sphinx-sol
+git+https://github.com/pascalmolin/sphinx-themes-pascal@master#egg=sphinx-themes-pascal

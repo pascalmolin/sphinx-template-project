@@ -39,23 +39,24 @@ extensions = [
 
 rstprog_debug = False
 math_dollar_debug = False
-gp_js_path = 'https://webusers.imj-prg.fr/~pascal.molin/static/gp.2.12'
+#gp_js_path = 'https://webusers.imj-prg.fr/~pascal.molin/static/gp.2.12'
 
+bibtex_bibfiles = ['refs.bib']
 gitstamp_fmt = "%b %d %Y"
 
 mathenv_environments = [
         # (rst directive, output, latex env)
-        ('def'  , 'Definition'    , 'definition')  ,
+        ('def'  , 'Definition'   , 'definition')  ,
         ('th'   , 'Theorem'      , 'theorem')     ,
-        ('prop' , 'Proposition'   , 'proposition') ,
+        ('prop' , 'Proposition'  , 'proposition') ,
         ('cor'  , 'Corollary'    , 'corollary')   ,
-        ('lem'  , 'Lemma'         , 'lemma')       ,
-        ('dem'  , 'Proof' , 'proof')       ,
-        ('rem'  , 'Remark'      , 'remark')      ,
-        ('ex'   , 'Example'       , 'example')     ,
-        ('exo'  , 'Exercise'      , 'exercise')    ,
-        ('sol'  , 'Solution'      , 'solution')    ,
-        ('algo' , 'Algorithm'     , 'algorithm')   ,
+        ('lem'  , 'Lemma'        , 'lemma')       ,
+        ('proof', 'Proof'        , 'proof')       ,
+        ('rem'  , 'Remark'       , 'remark')      ,
+        ('ex'   , 'Example'      , 'example')     ,
+        ('exo'  , 'Exercise'     , 'exercise')    ,
+        #('sol'  , 'Solution'     , 'solution')    ,
+        ('algo' , 'Algorithm'    , 'algorithm')   ,
 ]
 mathenv_nonumber = [ 'dem', 'sol' ]
 
