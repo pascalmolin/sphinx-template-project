@@ -9,3 +9,4 @@ git+https://github.com/pascalmolin/sphinx-mathenv@master#egg=sphinx-mathenv
 git+https://github.com/pascalmolin/sphinx-rstprog@master#egg=sphinx-rstprog
 git+https://github.com/pascalmolin/sphinx-sol@master#egg=sphinx-sol
 git+https://github.com/pascalmolin/sphinx-themes-pascal@master#egg=sphinx-themes-pascal
+git+https://github.com/pascalmolin/sphinx-pygments-gp@master#egg=sphinx-pygments-gp
